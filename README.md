@@ -65,6 +65,6 @@ Start PHPMyAdmin for data manage:
 
     http://localhost:8080/
 
-If you want to install the application without a docker, do not forget to start the migration of the database:
+Do not forget to start the migration of the database and populate it from `rooms.sql`:
 
     docker-compose exec app php artisan migrate
